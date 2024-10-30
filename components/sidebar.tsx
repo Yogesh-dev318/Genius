@@ -52,7 +52,7 @@ const routes=[
 const Sidebar=()=>{
     return(
         <div className=" py-4 flex flex-col h-full bg-[#111827] text-white">
-            {/* <div className="px-3 py-2 flex flex-col">
+            <div className="px-3 py-2 flex flex-col">
                 <Link href="/dashboard" className="flex items-center  pl-3 mb-14">
                     <div className="w-8 h-8 mr-4">
                         <img src="/"/>
@@ -69,7 +69,7 @@ const Sidebar=()=>{
                         </Link>
                     ))}
                 </div>
-            </div> */}
+            </div>
         </div>
     )
 }
