@@ -59,10 +59,10 @@ const Sidebar=()=>{
                     </div>
                     <h1 className= {cn("text-xl font-bold",montserrat.className)}>Genius</h1>
                 </Link>
-                <div className="space-y-1">
+                <div className="space-y-1 flex flex-col">
                     {routes.map((route)=>(
                         <Link href={route.href} key={route.label} className="text-sm flex p-3 w-full  font-medium cursor-pointer hover:text-white hover:bg-white/10 rounded-lg transition">
-                            <div className="flex items-center flex-1">
+                            <div className="flex items-center ">
                                 <route.icon className={cn("h-5 w-5 mr-3",route.color)}/>
                                 {route.label}
                             </div>
