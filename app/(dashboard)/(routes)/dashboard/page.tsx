@@ -1,4 +1,5 @@
 "use client"
+import Navbar from "@/components/navbar";
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { ArrowRight, Code, Image, MessageSquare, Music, VideoIcon } from "lucide-react";
